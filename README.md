@@ -39,7 +39,7 @@ The project uses an e-commerce order-level dataset containing
 
 ## Tools & Technologies
 
-### Data Analysis & Programming
+### Programming
 - Python
 - Pandas
 - NumPy
@@ -48,7 +48,6 @@ The project uses an e-commerce order-level dataset containing
 
 ### Database & Querying
 - MySQL
-- SQL
 
 ### Data Analysis & Visualization
 - Microsoft Excel
