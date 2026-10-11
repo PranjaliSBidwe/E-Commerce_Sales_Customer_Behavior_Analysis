@@ -127,5 +127,18 @@ The project uses an e-commerce order-level dataset containing
 - Jupyter Notebook
 - Git and GitHub
 
-### Current Progress
-Completed the initial data exploration, preprocessing, feature engineering, sales analysis, payment analysis, delivery analysis, customer satisfaction analysis, and advanced exploratory data visualization. The next phase will focus on Excel-based analysis using the same dataset.
+##  Excel Data Analysis
+
+- Created a data overview to check total records, columns, and missing values.
+- Calculated total recorded sales value, average order price, median order price, and average items per order.
+- Investigated prices stored as text and created a numeric helper column for accurate calculations.
+- Created a PivotTable to compare order counts and recorded sales value by payment method.
+- Documented key findings from payment behavior.
+
+Key findings:
+- Credit card was the most frequently used payment method, with 75,387 orders.
+- Credit card had the highest recorded sales value.
+- Boleto was the second most frequently used payment method.
+
+Tools used: WPS Office Spreadsheets, formulas, PivotTables.
+
