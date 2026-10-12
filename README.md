@@ -129,16 +129,33 @@ The project uses an e-commerce order-level dataset containing
 
 ##  Excel Data Analysis
 
+1) Data overview and Payment Analysis 
+
 - Created a data overview to check total records, columns, and missing values.
 - Calculated total recorded sales value, average order price, median order price, and average items per order.
 - Investigated prices stored as text and created a numeric helper column for accurate calculations.
 - Created a PivotTable to compare order counts and recorded sales value by payment method.
 - Documented key findings from payment behavior.
 
-Key findings:
+# Key findings:
 - Credit card was the most frequently used payment method, with 75,387 orders.
 - Credit card had the highest recorded sales value.
 - Boleto was the second most frequently used payment method.
 
-Tools used: WPS Office Spreadsheets, formulas, PivotTables.
+2) Order Status and Customer Satisfaction Analysis: 
 
+- Created an order status PivotTable to compare order counts and recorded sales value by status.
+- Created an Order Status Distribution chart using a separate helper table.
+- Built a customer review score PivotTable to count records across review-score categories.
+- Created a Customer Review Score Distribution chart.
+- Preserved fractional review scores and identified missing review scores.
+
+# Key findings:
+
+- Delivered orders: 96,478.
+- Review score 5 was the most frequent category, with 56,955 records.
+- There were 768 missing review scores.
+- Fractional review scores were retained without rounding.
+
+
+Tools used: WPS Office Spreadsheets, formulas, PivotTables.
