@@ -157,5 +157,14 @@ The project uses an e-commerce order-level dataset containing
 - There were 768 missing review scores.
 - Fractional review scores were retained without rounding.
 
+3) Created an interactive-style Excel dashboard using WPS Office Spreadsheets to consolidate key findings from the e-commerce analysis.
 
-Tools used: WPS Office Spreadsheets, formulas, PivotTables.
+
+- Created a dashboard worksheet with four key performance indicators.
+- Displayed total orders, recorded sales value, average order price, and average items per order.
+- Integrated the Order Status Distribution chart.
+- Integrated the Customer Review Score Distribution chart.
+- Added key business insights from payment behavior, order status, and customer reviews.
+
+
+# Tools used: WPS Office Spreadsheets, formulas, PivotTables.
